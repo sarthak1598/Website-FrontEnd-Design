@@ -1,0 +1,78 @@
+
+
+
+
+
+
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {font-family: sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:light gr;
+  color: black;
+  padding: 12px 12px;
+  border: 5px solid white; 
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right:20p
+  margin-bottom:30px;
+  padding-top:10px;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+  
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 45px;
+  height:70%;
+  width:50%
+}
+</style>
+</head>
+
+<body bgcolor = "#ff9">
+<body background="img/sky.jpg">
+<h3><center><font size="15" color="gray" style="landscape"><b>Contact Us</b></font></center></h3>
+
+   <center>
+      <div class="container">
+       <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required >
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required >
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required ></textarea>
+
+    <input type="submit" value="Submit">
+    </form>
+	</center>
+    </div>
+
+</body>
+</html>
+
